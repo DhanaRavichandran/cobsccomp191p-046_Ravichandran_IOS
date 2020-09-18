@@ -10,6 +10,8 @@
 		3CDB6659BF0732BAD90F82DC /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */; };
 		6CCB74BB2514CBFF003115FB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB74BA2514CBFF003115FB /* SignUpViewController.swift */; };
 		6CCB74BF2514D58F003115FB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB74BE2514D58F003115FB /* ProfileViewController.swift */; };
+		8CBD80DE251500B90015DB5C /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD80DD251500B90015DB5C /* BackViewController.swift */; };
+		8CBD80E0251513310015DB5C /* roundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD80DF251513310015DB5C /* roundBtn.swift */; };
 		8CE62BE32514F57D005F5743 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CE62BE22514F57C005F5743 /* GoogleService-Info.plist */; };
 		9BDEA8642E6DB4E8AA829826 /* Pods_NIBM_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF190596136852D09CFD0D13 /* Pods_NIBM_COVID19.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AC0AC60F2513B3AB00245848 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AC60E2513B3AB00245848 /* ResultViewController.swift */; };
@@ -50,6 +52,8 @@
 		6CCB74BA2514CBFF003115FB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6CCB74BE2514D58F003115FB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19_NIBM_COVID19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBD80DD251500B90015DB5C /* BackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
+		8CBD80DF251513310015DB5C /* roundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundBtn.swift; sourceTree = "<group>"; };
 		8CE62BE22514F57C005F5743 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC0AC60E2513B3AB00245848 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		AC5F98C825123FE200D44593 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				AC5F98CA25125ADE00D44593 /* SurveyViewController.swift */,
 				AC0AC60E2513B3AB00245848 /* ResultViewController.swift */,
 				6CCB74BA2514CBFF003115FB /* SignUpViewController.swift */,
+				8CBD80DD251500B90015DB5C /* BackViewController.swift */,
+				8CBD80DF251513310015DB5C /* roundBtn.swift */,
 			);
 			path = NIBM_COVID19;
 			sourceTree = "<group>";
@@ -426,6 +432,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBD80DE251500B90015DB5C /* BackViewController.swift in Sources */,
+				8CBD80E0251513310015DB5C /* roundBtn.swift in Sources */,
 				ACA1192C250F955B003E7F1B /* ViewController.swift in Sources */,
 				6CCB74BB2514CBFF003115FB /* SignUpViewController.swift in Sources */,
 				ACA11932250F955B003E7F1B /* NIBM_COVID19.xcdatamodeld in Sources */,
